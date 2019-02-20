@@ -4,8 +4,8 @@ body {
  background-size: 100%;
 /*  background-repeat: repeat-y; */
 /*  background-repeat: repeat-x; */
- background-repeat: no-repeat;
- background-attachment: fixed;	/*not scroll.let the background image follow my scroll*/
+     /*  background-repeat: no-repeat; */
+     /*  background-attachment: fixed;	/*not scroll.let the background image follow my scroll*/ */
 /*  background-size: none; */
  margin-left: 10%;  /*Gives me some space from the left side of the page*/
  margin-right: 10%;  /*Gives me some space from the left side of the page*/
