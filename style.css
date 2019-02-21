@@ -9,17 +9,17 @@ body {
 /*  background-size: none; */
  margin-left: 10%;  /*Gives me some space from the left side of the page*/
  margin-right: 10%;  /*Gives me some space from the left side of the page*/
- color: black;	/*text color*/
+ color: black; 	/*text color*/
  font-size: 40px;
 }
 
 .marginShift { 
- background-color: #f5f5f5; 
+/*  background-color: #f5f5f5;  */
 /*  background-color: yellow; */
   margin-left: 10%;  /*Gives me some space from the left side of the page*/ 
   margin-right: 10%;  /*Gives me some space from the left side of the page*/ 
   margin: 100px;
-  padding: 100px;
+/*   padding: 100px; */
 }
 
 
