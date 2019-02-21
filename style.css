@@ -9,6 +9,7 @@ body {
 /*  background-size: none; */
  margin-left: 10%;  /*Gives me some space from the left side of the page*/
  margin-right: 10%;  /*Gives me some space from the left side of the page*/
+ margin-top: 5%;
  color: black; 	/*text color*/
  font-size: 40px;
 }
