@@ -18,13 +18,14 @@ body {
 /*  background-color: yellow; */
   margin-left: 10%;  /*Gives me some space from the left side of the page*/ 
   margin-right: 10%;  /*Gives me some space from the left side of the page*/ 
-  margin: 100px;
+  margin: 50px;
   opacity: .8;
 /*   padding: 100px; */
 }
 
 .fullOpacity {
  opacity: 1;
+ margin: 25px;
 }
 
 
