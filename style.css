@@ -95,7 +95,7 @@ ul li a {
  display: block;
  }
 
-ul li a:hover, a:active {
+ul li a:hover {
  background-color: blue;	
 }
 
@@ -104,7 +104,7 @@ ul li ul li {
  display: none;
 }
 
-ul li:hover, li:active ul li {
+ul li:hover ul li {
  display: block;
 }
 
