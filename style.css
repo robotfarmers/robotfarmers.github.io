@@ -1,3 +1,4 @@
+
 body {
 /* no-repeat */
  background-image: url("nature.jpg");
@@ -7,45 +8,72 @@ body {
 /*       background-repeat: no-repeat; */
        background-attachment: fixed;	  /*not scroll.let the background image follow my scroll*/ 
 /*  background-size: none; */
- margin-left: 10%;  /*Gives me some space from the left side of the page*/
- margin-right: 10%;  /*Gives me some space from the left side of the page*/
- margin-top: -5%;
+ margin-left: 0px;  /*Gives me some space from the left side of the page*/
+ margin-right: 0px;  /*Gives me some space from the left side of the page*/
+/*  margin-top: 2%; */
  color: black; 	/*text color*/
  opacity: 1;
  font-size: 40px;
+ text-align: center;
+ height: 100%;
 }
 
 .smallFont {
  font-size: 20px;
 }
 
-.marginShift { 
+
+.ClearBackground { 
   background-color: #f5f5f5; 
-  margin-left: 10%;  /*Gives me some space from the left side of the page*/ 
-  margin-right: 10%;  /*Gives me some space from the left side of the page*/ 
-  margin: 50px;
-  margin-top: 150px;
-  opacity: .8;
+ /*  margin: 50px; */
+ margin-left: 10%;  /*Gives me some space from the left side of the page*/
+ margin-right: 10%;
+  margin-top: 5%;
+  opacity: .7;
 /*   padding: 100px; */
 }
 
-.fullOpacity {
- margin-top: -1580px;
+
+/* 
+.CenterTheDocsAndCont {
+
+ 
+}
+ */
+
+
+.DocsVidsContent {
+ margin-top: 100px;
  opacity: 1;
- margin-left: 10%;   
-  margin-right: 10%;
+ 
+ width: 100%;	             /*width needs to be set for text-align to work*/
  text-align: center;
-/*  width: 600px; */
- position: relative;		/* this an top: 0.5em were hugely important in text on opaque bkgrnd*/
-  top: 0.5em;
-  margin-bottom: 100px;	/*change the distance of the opaque page from the bottom of the screen*/
+ position: absolute;		/* this an top: 0.5em were hugely important in text on opaque bkgrnd*/
+  top: 18%; 
+ /*  margin-bottom: 100px; */	/*change the distance of the opaque page from the bottom of the screen*/
 }
 
+
+
+.TextOnPage {
+
+ width: 100%;
+ text-align: center;
+}
+
+
+
+.menuList {
+ position: absolute;		/* this an top: 0.5em were hugely important in text on opaque bkgrnd*/
+  top: 15%;
+  left: 15%;
+}
 
 
 ul {
  margin: 0px;
  padding: 0px;
+
  list-style: none;
  font-family: arial;
 }
@@ -54,7 +82,7 @@ ul li {
  float: left;
  width: 200px;
  height: 40px;
- background-color: black;	/*The default color of the menu list*/
+ background-color: black;	
  opacity: .8;
  line-height: 40px;
  text-align: center;
@@ -68,7 +96,7 @@ ul li a {
  }
 
 ul li a:hover {
- background-color: blue;	/*when the menu item is hovered over*/
+ background-color: blue;	
 }
 
 ul li ul li {
@@ -78,3 +106,4 @@ ul li ul li {
 ul li:hover ul li {
  display: block;
 }
+
